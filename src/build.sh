@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -Wextra -Wall -g -o main main.c
+gcc -Wextra -Wall -g -o main main.c lexer.c token.c
